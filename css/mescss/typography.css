@@ -1,0 +1,13 @@
+html {
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@300;400&display=swap');
+}
+
+h1,h2,h3,h4 {
+    font-family: "Bebas Neue", cursive;
+    font-weight: 200;
+}
+html {
+    font-family: "Raleway", sans-serif;
+}
+
