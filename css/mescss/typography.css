@@ -10,14 +10,14 @@ html {
 h1 {
     font-size: 45px;
 }
-h2,div.accueil>p {
+h2,div.ensavoir\+1,div.ensavoir\+2,div.ensavoir\+3 {
     font-size: 20px;
 }
 h3 {
     font-size: 16px;
 }
 
-div.accueil>p {
+div.ensavoir\+1>a,div.ensavoir\+2>a,div.ensavoir\+3>a {
     font-family: "Bebas Neue", cursive;
     font-size: 14px;
 }

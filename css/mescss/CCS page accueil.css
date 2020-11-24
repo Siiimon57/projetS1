@@ -17,7 +17,7 @@ h2 {
 div.accueil>img {
     margin-left: 23px;
 }
-h2,div.accueil>p {
+h2,div.accueil>div.ensavoir\+1,div.ensavoir\+2,div.ensavoir\+3  {
     float:right;
 }
 p.chapeau {
@@ -35,18 +35,20 @@ p.signature  {
 div.réseaux_sociaux {
     display: flex;
     justify-content: center;
+    margin-left: -10px;
 }
 p.mentions {
     text-align: center;
 }
-p.ensavoir\+1,p.ensavoir\+2,p.ensavoir\+3 {
+div.ensavoir\+1,div.ensavoir\+2,div.ensavoir\+3 {
     background-color: #68DAF5;
-
 }
-div.accueil>p {
+div.accueil>div.ensavoir\+1,div.ensavoir\+2,div.ensavoir\+3  {
+
     margin-right: 70px;
-    padding: 5px 15px;
     margin-top: -90px;
+    line-height: 14px;
+    padding: 5px 15px;
 }
 main {
     background-color: #243247;
@@ -59,7 +61,7 @@ header>img  {
     top: -25px;
 }
 body {
-    background: url("fonddata.png") no-repeat;
+    background: url("FOND TNG OFF.png") no-repeat;
     background-size: contain;
 }
 header {
@@ -73,23 +75,50 @@ footer {
 footer>img {
     position: absolute;
     left: 345px;
-    top: 1006px;
+    top: 998px;
     width: 17px;
     height: 19px;
 }
 a.mail {
     margin-top: -7px;
+    margin-right: -2px;
 }
 a.yt {
-    margin-top: -3px;
+    margin-top: -2px;
 }
 a.insta {
     margin-top: 1px;
-    margin-right: 4px;
+    margin-right: 6px;
 }
 div.réseaux_sociaux>a {
     margin-left: 10px;
 }
 a.fb {
-    margin-right: 2px;
+    margin-right: 1px;
+}
+div.line {
+    width: 8px;
+    height: 706px;
+    background-color: #C9DAF4;
+    position: absolute;
+    top: 208px;
+    left: 89px;
+    z-index: 1;
+}
+div.line-2 {
+    width: 8px;
+    height: 706px;
+    background-color: #68DAF5;
+    position: absolute;
+    top: 208px;
+    left: 69px;
+    z-index: 1;
+}
+div.accueil>img, p.chapeau {
+    position: relative;
+    z-index: 2;
+}
+a {
+    text-decoration: none;
+    color: black;
 }
