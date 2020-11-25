@@ -68,7 +68,10 @@ nav.menu {
     opacity: 0;
     transition: all .4s ease;
     background-color: #0C1E3A;
-    padding: 20px 80px;
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+    padding: 20px 30px;
 }
 .menu-open .menu>ul>li {
     transform: translateX(0);
@@ -76,7 +79,7 @@ nav.menu {
 }
 
 .menu a {
-    color: white;
+    color: #68DAF5;
     text-decoration: none;
     font-family: "Bebas Neue", cursive;
 }
