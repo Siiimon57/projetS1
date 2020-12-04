@@ -55,12 +55,13 @@ div.accueil>div.ensavoir\+1,div.ensavoir\+2,div.ensavoir\+3  {
 main {
     background-color: #243247;
     padding-top: 30px;
-    margin-top: -67px;
+    margin-top: -60px;
 }
-header>img  {
+header>a  {
     position: absolute;
     left: 9px;
     top: -25px;
+    z-index: 5;
 }
 body {
     background: url("FOND TNG OFF.png") no-repeat;
@@ -103,7 +104,7 @@ div.line {
     height: 709px;
     background-color: #C9DAF4;
     position: absolute;
-    top: 208px;
+    top: 215px;
     left: 89px;
     z-index: 1;
 }
@@ -112,7 +113,7 @@ div.line-2 {
     height: 709px;
     background-color: #68DAF5;
     position: absolute;
-    top: 208px;
+    top: 215px;
     left: 69px;
     z-index: 1;
 }
@@ -126,6 +127,6 @@ a {
 }
 a.fleche {
     position: absolute;
-    top: 186px;
+    top: 192px;
     left: 168px;
 }
