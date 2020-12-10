@@ -1,0 +1,127 @@
+body {
+    margin : 0;
+    padding: 0;
+}
+main>p, main>h2 {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #DCE5F3;
+}
+
+h1 {
+    text-align: center;
+    color: #DCE5F3;
+    margin-top: 97px;
+    font-size: 30px;
+    width: 300px;
+}
+header>a  {
+    position: absolute;
+    left: 9px;
+    top: -25px;
+    z-index: 5;
+}
+body {
+    background: url("fond article solution.png") no-repeat;
+    background-size: contain;
+}
+header {
+    padding-bottom: 15px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+header>a  {
+    position: absolute;
+    left: 9px;
+    top: -25px;
+    z-index: 5;
+}
+a.fleche {
+    position: absolute;
+    top: 192px;
+    left: 168px;
+}
+main {
+    background-color: #243247;
+    margin-bottom: -13px;
+    padding-bottom: 20px;
+}
+p.chapeau {
+    color: #DCE5F3;
+    text-align: center;
+    padding-top: 32px;
+    width: 338px;
+    margin-right: auto;
+    margin-left: auto;
+}
+div.rectangle1>p{
+    width: 245px;
+    font-size: 12px;
+    background-color: #0C1E3A;
+    padding: 4px 8px;
+    color: #DCE5F3;
+}
+div.rectangle1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+div.line {
+    width: 375px;
+    height: 8px;
+    background-color: #0C1E3A;
+    position: absolute;
+    top: 71px;
+    z-index: -1;
+}
+h2 {
+    color: #DCE5F3;
+}
+footer {
+    background-color: #C9DAF4;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+footer>img {
+    position: absolute;
+    left: 345px;
+    top: 1800px;
+    width: 17px;
+    height: 19px;
+}
+a.mail {
+    margin-top: -7px;
+    margin-right: -2px;
+}
+a.yt {
+    margin-top: -2px;
+}
+a.insta {
+    margin-top: 1px;
+    margin-right: 6px;
+}
+div.réseaux_sociaux>a {
+    margin-left: 10px;
+}
+a.fb {
+    margin-right: 1px;
+}
+p.signature  {
+    text-align: center;
+}
+div.réseaux_sociaux {
+    display: flex;
+    justify-content: center;
+    margin-left: -10px;
+}
+p.mentions {
+    text-align: center;
+}
