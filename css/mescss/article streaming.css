@@ -16,7 +16,7 @@ header>a  {
     z-index: 5;
 }
 body {
-    background: url("css/mescss/fond article streaming.png") no-repeat;
+    background: url("fond article streaming.png") no-repeat;
     background-size: contain;
 }
 header {

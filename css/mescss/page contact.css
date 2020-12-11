@@ -1,0 +1,152 @@
+body {
+    margin : 0;
+    padding: 0;
+}
+main>p {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #DCE5F3;
+}
+
+h1 {
+    text-align: center;
+    color: #DCE5F3;
+    margin-top: 97px;
+    font-size: 45px;
+    width: 300px;
+}
+header>a  {
+    position: absolute;
+    left: 9px;
+    top: -25px;
+    z-index: 5;
+}
+body {
+    background: url("FOND TNG OFF.png") no-repeat;
+    background-size: contain;
+}
+header {
+    padding-bottom: 15px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+header>a  {
+    position: absolute;
+    left: 9px;
+    top: -25px;
+    z-index: 5;
+}
+a.fleche {
+    position: absolute;
+    top: 192px;
+    left: 168px;
+}
+main>p {
+    margin-top: 50px;
+    padding-top: 35px;
+    margin-bottom: 25px;
+}
+main {
+    background-color: #243247;
+    margin-top: -28px;
+    padding-bottom: 10px;
+}
+
+div.formulaire {
+    font-family: "Raleway", sans-serif;
+    padding-bottom: 20px;
+    margin-top: -5px;
+}
+.contact-form {
+    max-width: 300px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 15px 0;
+    border: 0;
+    background: #0C1E3A;
+    padding: 10px 40px;
+    outline: none;
+    color: #DCE5F3;
+    transition: 0.5s;
+}
+.contact-form-text:hover {
+    box-shadow: 0 0 10px 4px #34495e;
+
+}
+textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+}
+.contact-form-btn {
+    float: right;
+    border: 0;
+    background: #68DAF5;
+    color: #0C1E3A;
+    padding: 8px 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 10px;
+}
+.contact-form-btn:hover {
+    background: #2980b9;
+}
+footer {
+    background-color: #C9DAF4;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+footer>img {
+    position: absolute;
+    left: 345px;
+    top: 800px;
+    width: 17px;
+    height: 19px;
+}
+a.mail {
+    margin-top: -7px;
+    margin-right: -2px;
+}
+a.yt {
+    margin-top: -2px;
+}
+a.insta {
+    margin-top: 1px;
+    margin-right: 6px;
+}
+div.réseaux_sociaux>a {
+    margin-left: 10px;
+}
+a.fb {
+    margin-right: 1px;
+}
+p.signature  {
+    text-align: center;
+}
+div.réseaux_sociaux {
+    display: flex;
+    justify-content: center;
+    margin-left: -10px;
+}
+p.mentions {
+    text-align: center;
+}
+h2 {
+    background-color: #0C1E3A;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 3px;
+    color: #DCE5F3;
+    letter-spacing: 5px;
+}
