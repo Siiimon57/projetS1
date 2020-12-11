@@ -1,0 +1,108 @@
+body {
+    margin : 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color: #DCE5F3;
+    margin-top: 97px;
+    font-size: 30px;
+    width: 250px;
+}
+header>a  {
+    position: absolute;
+    left: 9px;
+    top: -25px;
+    z-index: 5;
+}
+body {
+    background: url("css/mescss/fond article streaming.png") no-repeat;
+    background-size: contain;
+}
+header {
+    padding-bottom: 15px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+header>a  {
+    position: absolute;
+    left: 9px;
+    top: -25px;
+    z-index: 5;
+}
+a.fleche {
+    position: absolute;
+    top: 192px;
+    left: 168px;
+}
+main {
+    background-color: #243247;
+    margin-bottom: -13px;
+    padding-bottom: 74px;
+    margin-top: 15px;
+    padding-top: 20px;
+    color: #DCE5F3;
+}
+p {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+a.lire-la-suite {
+    color: #0C1E3A;
+    background-color: #68DAF5;
+    position: absolute;
+    left: 50px;
+    padding: 4px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 75px;
+    text-align: center;
+    top: 1335px;
+}
+footer {
+    background-color: #C9DAF4;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 13px;
+}
+footer>img {
+    position: absolute;
+    left: 345px;
+    top: 1400px;
+    width: 17px;
+    height: 19px;
+}
+a.mail {
+    margin-top: -7px;
+    margin-right: -2px;
+}
+a.yt {
+    margin-top: -2px;
+}
+a.insta {
+    margin-top: 1px;
+    margin-right: 6px;
+}
+div.réseaux_sociaux>a {
+    margin-left: 10px;
+}
+a.fb {
+    margin-right: 1px;
+}
+p.signature  {
+    text-align: center;
+}
+div.réseaux_sociaux {
+    display: flex;
+    justify-content: center;
+    margin-left: -10px;
+}
+p.mentions {
+    text-align: center;
+}
