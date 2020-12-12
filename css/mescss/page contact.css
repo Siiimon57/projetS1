@@ -106,11 +106,12 @@ footer {
     background-color: #C9DAF4;
     padding-top: 5px;
     padding-bottom: 10px;
+    position: relative;
 }
 footer>img {
     position: absolute;
     left: 345px;
-    top: 800px;
+    top: 85px;
     width: 17px;
     height: 19px;
 }

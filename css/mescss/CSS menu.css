@@ -9,7 +9,7 @@ header>img  {
     /*background-color: orange;*/
     width: 30px;
     height: 30px;
-    position: absolute;
+    position: fixed;
     top: 30px;
     right: 30px;
     display: flex;

@@ -35,7 +35,7 @@ p.video {
 p.video>i {
     margin-left: -5px;
 }
-p.video>i>strong>a  {
+p.video>i>a, p.video>i>strong>a  {
     color: #68DAF5;
     text-decoration: none;
 }
@@ -195,3 +195,4 @@ p.center {
     width: 280px;
     margin-left: 45px;
 }
+

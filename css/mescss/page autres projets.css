@@ -2,7 +2,7 @@ body {
     margin : 0;
     padding: 0;
 }
-main>p, main>h2 {
+main>p {
     margin-left: 15px;
     margin-right: 15px;
     color: #DCE5F3;
@@ -12,7 +12,7 @@ h1 {
     text-align: center;
     color: #DCE5F3;
     margin-top: 97px;
-    font-size: 30px;
+    font-size: 45px;
     width: 300px;
 }
 header>a  {
@@ -22,7 +22,7 @@ header>a  {
     z-index: 5;
 }
 body {
-    background: url("fond article solution.png") no-repeat;
+    background: url("FOND TNG OFF.png") no-repeat;
     background-size: contain;
 }
 header {
@@ -47,49 +47,87 @@ a.fleche {
     top: 192px;
     left: 168px;
 }
-main {
-    background-color: #243247;
-    margin-bottom: -13px;
-    padding-bottom: 20px;
-}
-p.chapeau {
+div.chapeau {
     color: #DCE5F3;
-    text-align: center;
-    padding-top: 32px;
-    width: 338px;
-    margin-right: auto;
-    margin-left: auto;
-}
-div.rectangle1>p{
-    width: 245px;
-    font-size: 12px;
-    background-color: #0C1E3A;
-    padding: 4px 8px;
-    color: #DCE5F3;
-}
-div.rectangle1 {
+    margin-top: 22px;
+    padding-top: 30px;
     display: flex;
     justify-content: center;
-    position: relative;
-    z-index: 1;
-    margin-bottom: 10px;
 }
-div.line {
-    width: 375px;
-    height: 8px;
+main {
+    background-color: #243247;
+    padding-bottom: 35px;
+}
+p.chapeau {
     background-color: #0C1E3A;
-    position: absolute;
-    top: 71px;
-    z-index: -1;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    width: 250px;
+    padding: 6px 65px;
 }
-h2 {
-    color: #DCE5F3;
+ul>li {
+    list-style: none;
+}
+div.film, div.film2 {
+    display: table-cell;
+    width: 187.5px;
+    position: relative;
+    z-index: 2;
+}
+ul.left>li {
+    margin-left: 0;
+    margin-bottom: 40px;
+}
+ul.right>li {
+    margin-left: 0;
+    margin-bottom: 40px;
+}
+ul {
+    padding: 0;
+}
+div.list {
+    margin-left: 50px;
+    margin-top: 15px;
+}
+div.rectanglefond {
+    width: 610px;
+    height: 280px;
+    background-color: #68DAF5;
+    opacity: 28%;
+    position: absolute;
+    z-index: 1;
+    top: 379px;
+    left: -100px;
+    transform: rotate(-21deg);
+}
+div.rectanglefond2 {
+    width: 610px;
+    height: 280px;
+    background-color: #68DAF5;
+    opacity: 28%;
+    position: absolute;
+    z-index: 1;
+    top: 920px;
+    left: -100px;
+    transform: rotate(21deg);
+}
+div.rectanglefond3 {
+    width: 610px;
+    height: 280px;
+    background-color: #68DAF5;
+    opacity: 28%;
+    position: absolute;
+    z-index: 1;
+    top: 1434px;
+    left: -100px;
+    transform: rotate(-21deg);
 }
 footer {
     background-color: #C9DAF4;
     padding-top: 5px;
     padding-bottom: 10px;
-    position:relative;
+    position:relative
 }
 footer>img {
     position: absolute;
@@ -126,3 +164,9 @@ div.réseaux_sociaux {
 p.mentions {
     text-align: center;
 }
+
+
+
+
+
+
