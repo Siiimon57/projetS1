@@ -63,7 +63,7 @@ a.lire-la-suite {
     text-decoration: none;
     width: 75px;
     text-align: center;
-    top: 1335px;
+    top: 1535px;
 }
 footer {
     background-color: #C9DAF4;
@@ -106,4 +106,23 @@ div.réseaux_sociaux {
 }
 p.mentions {
     text-align: center;
+}
+video {
+    width: 320px;
+    height: 180px;
+}
+
+p.video {
+    margin-left: 27px;
+    font-size: 11px;
+    width: 340px;
+
+}
+div.bloc-video {
+    margin-right: 29px;
+}
+video {
+    background-color: #0C1E3A;
+    padding: 5px;
+    margin-left: -5px;
 }
