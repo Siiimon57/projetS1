@@ -38,7 +38,7 @@ header>img  {
 nav.menu {
     background-image: url("FOND TNG PSD couleur menu.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     position: fixed;
     top: 0;
     left: 0;
