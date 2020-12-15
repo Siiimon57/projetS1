@@ -44,7 +44,7 @@ a.fleche {
 main {
     background-color: #243247;
     margin-bottom: -13px;
-    padding-bottom: 74px;
+    padding-bottom: 80px;
     margin-top: 15px;
     padding-top: 20px;
     color: #DCE5F3;
@@ -63,7 +63,7 @@ a.lire-la-suite {
     text-decoration: none;
     width: 75px;
     text-align: center;
-    top: 1535px;
+    top: 1560px;
 }
 footer {
     background-color: #C9DAF4;
@@ -125,4 +125,8 @@ video {
     background-color: #0C1E3A;
     padding: 5px;
     margin-left: -5px;
+}
+a.source {
+    color: #68DAF5;
+    margin-left: 15px;
 }
